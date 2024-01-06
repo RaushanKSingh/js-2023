@@ -29,3 +29,30 @@ const myFunction =function(x){
 
 console.log(myFunction(2));
 console.log(myObj.name);
+
+//MEMORIES.............
+
+// Stack type memory ( for primitive variable)
+// Heap Type memory (for Non-Primitive variable)
+
+let myYouTubeName= "RaushanSingh";
+let myOtherYoutubeName= myYouTubeName;
+
+myOtherYoutubeName = "Shivani"; // myYouTubeName variable is not changed.
+
+console.log(myYouTubeName);
+console.log(myOtherYoutubeName);
+
+
+
+let userOne={
+    name: "Ganesh",
+    email: "ganesh@love.com"
+};
+ let userTwo =userOne;
+
+ userTwo.name="Shiva"; // userOne name got changed as userTwo refers the same memory as userOne
+
+ console.log(userOne.name);
+ console.log(userTwo.name);
+
