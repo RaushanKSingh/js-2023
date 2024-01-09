@@ -1,6 +1,6 @@
 // object singleton
 
-//object 
+//object litrals
 
 const sym =Symbol("sym1");
 // console.log(sym);
