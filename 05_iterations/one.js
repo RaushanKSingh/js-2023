@@ -42,4 +42,4 @@ let arr =[1,2,3,4,5,6,7,8,9,10]
 //     const element = arr[index];
 //     console.log(`element at index ${index} is ${element}`);
 //     index++;
-} while (index< arr.length);
+// } while (index< arr.length);
