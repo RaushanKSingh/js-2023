@@ -17,13 +17,13 @@ myMap.set("TN","Tamilnadu")
 
 // console.log(myMap);
 
-// for (const element of myMap) {
-//     console.log(`element is ${element}`);
-// }
+for (const element of myMap) {
+    console.log(`element is ${element}`);
+}
 
 
 // for (const [key,value] of myMap) {
 //     console.log(`key is ${key} and value is ${value}`);
 // }
-myMap.set("IN","Bharat")
-console.log(myMap);
+// myMap.set("IN","Bharat")
+// console.log(myMap);
